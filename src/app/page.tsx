@@ -32,8 +32,7 @@ export default function Home() {
       message: "hello world"
     })
 
-    // true
-    console.log("Signature is valid?", isValid)
+    console.log("Signature is valid?", isValid) // true
   }
 
   async function signTD() {
@@ -53,7 +52,7 @@ export default function Home() {
       primaryType: exampleData.primaryType,
     });
 
-    console.log("Signature is valid?", isValid) // false
+    console.log("Signature is valid?", isValid) // true
   }
 
   return (
